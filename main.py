@@ -1,9 +1,4 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import cmath
-import math
 
 def calculateResultsOfEquation(a,b,c,d):
     if( a == 0):
@@ -51,8 +46,6 @@ def calculateResultsOfEquation(a,b,c,d):
         print("x3: " + str(round(x3.real, 3) + round(x3.imag, 3) * 1j))
     else:
         print("x3: " + str(round(x3.real, 3)))
-    # Use a breakpoint in the code line below to debug your script.
-    # Press Ctrl+F8 to toggle the breakpoint.
 
 print("Podaj wartosc a: ")
 a = float(input())
